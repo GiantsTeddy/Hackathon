@@ -174,7 +174,7 @@ img
     min-height:100vh;
     padding-top:100px;
     padding-bottom:100px;
-    background-image:linear-gradient(175deg, #EEE 50%, #FF9FDB 50%, #9B75D7)
+    background-image:linear-gradient(175deg, #EEE 50%, #73605b 50%, #53302E, 50%, #330000)
 }
 .ab-section-contact .ab-container{
     max-width:1280px;
@@ -234,6 +234,7 @@ img
     padding: 20px;
     border-radius: 10px;
 }
+
 * {
     margin: 0;
     padding: 0;
