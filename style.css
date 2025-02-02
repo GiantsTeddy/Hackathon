@@ -70,6 +70,10 @@ img
     border-radius: 10px;
     background-color: #73605B;
 }
+#Button :hover
+{
+    cursor: pointer;
+}
 #Contact_Bottom
 {
     background-color: #330000;
@@ -123,7 +127,48 @@ img
 .form-group input[type="number"] {
     width: 100px;
 }
+
+
+
+.FAQ_Header
+{
+    background-color: lightsalmon;
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    border: 5px solid black;
+}
+.FAQ_Main_Top
+{
+    text-align: center;
+   
+}
+.FAQ_Main_Links_Header
+{
+    text-align: center;
+}
+.FAQ_Main_Links_Outer
+{
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 2px solid black; 
+}
+.FAQ_Main_Links_Inner
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.FAQ_Text_Bottom
+{
+    margin-left: 90px;
+    margin-right: 90px;
+}
 @media (max-width: 1499px) {
+    .FAQ_Header
+    {
+        padding-top: 10%;
+    }
+
     .Main_page
     {
         margin-top: 13%;
@@ -142,6 +187,10 @@ img
     }
 }
 @media (min-width: 1500px) {
+    .FAQ_Header
+    {
+        padding-top: 5%;
+    }
     .Main_page
     {
         margin-top: 7%;
