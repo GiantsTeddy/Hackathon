@@ -1,0 +1,161 @@
+body
+{   
+    margin: 0px;
+    background-color: #73605B;
+    color: aliceblue;
+}
+h1
+{
+    text-align: center;
+}
+img
+{
+    height: 50px;
+    width: 50px;
+}
+.nav{
+    position: fixed;
+    top: 0px;
+    
+    width: 100%;
+}
+.nav ul {
+    list-style-type: none;
+    background-color:#330000;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+}
+.nav li {
+    flex: auto;
+    padding-right: 20px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.nav a:hover{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 21px;
+}
+.Title
+{
+    border: 10px solid #330000;
+    border-radius: 1200px;
+    color: white;
+    background-color: #330000;
+}
+#Contact_text 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    
+}
+#Button
+{
+    border: 2px solid #330000;
+    border-radius: 10px;
+    background-color: #73605B;
+}
+#Contact_Bottom
+{
+    background-color: #330000;
+    margin-top: 10%;
+}
+
+.Contact_PageEnd_Text_Header
+{
+    cursor: pointer;
+    /* padding-left: 5%; */
+    color: rgb(255, 255, 255);
+}
+.Contact_PageEnd_Text 
+{
+    color: rgb(255, 0, 0);
+}
+
+.Contact_PageEnd_Text :visited
+{
+    color: rgb(255, 255, 255);  
+}
+#Contact_PageEnd
+{
+    border:1px solid rgb(255, 255, 255);
+    
+}
+
+#ShopNames
+{
+    text-align: center;
+    color: #ffffff;
+    background-color: #73605B;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    /* width: 80%; */
+    /* margin: auto; */
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    display: inline-block;
+    width: 150px;
+}
+.form-group input[type="number"] {
+    width: 100px;
+}
+@media (max-width: 1499px) {
+    .Main_page
+    {
+        margin-top: 13%;
+    }
+    .Contact_PageEnd_Text_Header
+    {
+        padding-left: 9%;
+    }
+    .container {
+        margin-left: 7%;
+        margin-right: 7%;   
+    }
+    #Contact_Bottom
+    {
+        margin-top: 10%;
+    }
+}
+@media (min-width: 1500px) {
+    .Main_page
+    {
+        margin-top: 7%;
+    }
+    .Contact_PageEnd_Text_Header
+    {
+        padding-left: 6%;
+    }
+    .container {
+        margin-left: 3%;
+        margin-right: 3%;   
+    }
+    #Contact_Bottom
+    {
+        margin-top: 5%;
+    }
+}
