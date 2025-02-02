@@ -270,7 +270,7 @@ class Board {
 }
 
 function loadData(bot){
-    totalRevenue += bot.changing[3]
+    totalRevenue += Number(bot.changing[3])
     for(let s of bot.boughtSpots){
         spacesBought.push(s)
     }
