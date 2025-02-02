@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="cockfuck.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="cockfuck.js"></script>
     <link rel="stylesheet" href="style.css">
-    <link id="JS_icon" rel="icon" href="" type="image/x-icon">
-    <title>Impulse buys</title>
+    <link id="JS_icon" rel="icon" href="market_icon_transparent.png" type="image/x-icon">
+    <title>Impulse Buys</title>
 </head>
 <body>
     <nav class="nav">
@@ -14,32 +14,32 @@
             <li><a href="main.html"><h5><img src="market_icon_transparent.png" alt=""><span> Impulse buys   </span></h5></a></li>
             <li><a href="main.html"><u>Home</u></a></li>
             <li><a href="main.html"><u>About Us</u></a></li>
-            <li><a href="main.html"><u>FAQ</u></a></li>
+            <li><a href="Impulse_Buy_FAQ.html"><u>FAQ</u></a></li>
         </ul>
     </nav>
     <br>
     <br>
     <div class="Main_page">
-        <div>
-            <button class="Title"><h1><b><u>Impulse buys</u></b></h1></button>
+        <div style="width: 1000%; margin-left: 10%;">
+            <button class="Title"><h1 style="margin: 10%;"><b><u>Impulse buys</u></b></h1></button>
         </div>
         <br>
         <div class="container">
             <label for="ShopNames">Choose your company:</label>
-        <select name="ShopNames" id="ShopNames">
-            <option value="">Select value</option>
-            <option value="Shoprite">Shoprite</option>
-            <option value="The Fresh Grocer">The Fresh Grocer</option>
-            <option value="Gourmet Garage">Gourmet Garage</option>
-            <option value="PriceRite Marketplace">PriceRite Marketplace</option>
-            <option value="FairWay Market">FairWay Market</option>
-            <option value="Dearborn Market">Dearborn Market</option>
-            <option value="Di Bruno Bros">Di Bruno Bros</option>
-            <option value="other">Other</option>
-        </select>
+            <select name="ShopNames" id="ShopNames">
+                <option value="">Select value</option>
+                <option value="Shoprite">Shoprite</option>
+                <option value="The Fresh Grocer">The Fresh Grocer</option>
+                <option value="Gourmet Garage">Gourmet Garage</option>
+                <option value="PriceRite Marketplace">PriceRite Marketplace</option>
+                <option value="FairWay Market">FairWay Market</option>
+                <option value="Dearborn Market">Dearborn Market</option>
+                <option value="Di Bruno Bros">Di Bruno Bros</option>
+                <option value="other">Other</option>
+            </select>
         
             <div class="AVG_Person">
-                <h3>Average Customers Per Day: <input placeholder="min of 100ppl" type="number"></h3> 
+                <h3>Average Customers Per Day: <input placeholder="Min of 100ppl" type="number"></h3> 
             </div>
             <br>
             <h3 style="text-align: center;">Proucts listis(Min of 1)</h3>
@@ -124,8 +124,8 @@
                     <input type="checkbox" id="Lemon-Lime">
                     <label for="Lemon-Lime">Lemon-Limed</label>
                     <input style="width:40%;" placeholder="If Yes, Enter cost" type="number">
-                </div>
-                <div>
+                    </div>
+                    <div>
                     <h4>Canned Goods</h4>
                     <div class="form-group">
                         <input type="checkbox" id="Soups">
@@ -138,20 +138,17 @@
                         <input style="width:40%;" placeholder="If Yes, Enter cost" type="number">
                     </div>
                     <div class="form-group">
-                    <input type="checkbox" id="Canned vegetables">
-                    <label for="Canned vegetables">Canned vegetables</label>
-                    <input style="width:40%;" placeholder="If Yes, Enter cost" type="number">
+                        <input type="checkbox" id="Canned vegetables">
+                        <label for="Canned vegetables">Canned vegetables</label>
+                        <input style="width:40%;" placeholder="If Yes, Enter cost" type="number">
                     </div>
+                    </div>
+                <Button id="Button" onclick="runGame()">Submit</Button>   
                 </div>
-                <button onclick="runGame()" id="Button">Submit</button>   
-
-            </div>
         </div>
     </div>
 </div>
 </div>
-
-
 
 
 
